@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('../assets/background.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #fff;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+}
+
+section {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.projects .project-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-cards .card {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
